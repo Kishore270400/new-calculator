@@ -26,7 +26,7 @@ namespace Calculator
         {
                 
         }
-        private void button1_Click(object sender, EventArgs e)
+        private void btndot_Click(object sender, EventArgs e)
         {
             if (textBox2.Text.ToString().Contains("="))
             {
@@ -47,7 +47,7 @@ namespace Calculator
                
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btn0_Click(object sender, EventArgs e)
         {
             if (textBox2.Text.ToString().Contains("="))
             {
@@ -66,7 +66,7 @@ namespace Calculator
 
         }
 
-        private void button14_Click(object sender, EventArgs e)
+        private void btn8_Click(object sender, EventArgs e)
         {
             if (textBox2.Text.ToString().Contains("="))
             {
@@ -84,7 +84,7 @@ namespace Calculator
             TextWasChanged = true;
         }
 
-        private void button13_Click(object sender, EventArgs e)
+        private void btn7_Click(object sender, EventArgs e)
         {
             if (textBox2.Text.ToString().Contains("="))
             {
@@ -102,7 +102,7 @@ namespace Calculator
             TextWasChanged = true;
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void btn4_Click(object sender, EventArgs e)
         {
             if (textBox2.Text.ToString().Contains("="))
             {
@@ -119,7 +119,7 @@ namespace Calculator
             }
             TextWasChanged = true;
         }
-        private void button10_Click(object sender, EventArgs e)
+        private void btn5_Click(object sender, EventArgs e)
         {
             if (textBox2.Text.ToString().Contains("="))
             {
@@ -137,7 +137,7 @@ namespace Calculator
             TextWasChanged = true;
         }
 
-        private void button11_Click(object sender, EventArgs e)
+        private void btn6_Click(object sender, EventArgs e)
         {
              if (textBox2.Text.ToString().Contains("="))
             {
@@ -155,7 +155,7 @@ namespace Calculator
             TextWasChanged = true;
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void btn1_Click(object sender, EventArgs e)
         {
             if (textBox2.Text.ToString().Contains("="))
             {
@@ -173,7 +173,7 @@ namespace Calculator
             TextWasChanged = true;
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void btn2_Click(object sender, EventArgs e)
         {
             if (textBox2.Text.ToString().Contains("="))
             {
@@ -191,7 +191,7 @@ namespace Calculator
             TextWasChanged = true;
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void btn3_Click(object sender, EventArgs e)
         {
             if (textBox2.Text.ToString().Contains("="))
             {
@@ -209,7 +209,7 @@ namespace Calculator
             TextWasChanged = true;
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        private void btnadd_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "")
             {
@@ -243,7 +243,7 @@ namespace Calculator
      
         
 
-        private void button12_Click(object sender, EventArgs e)
+        private void btnsub_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "")
             {
@@ -272,7 +272,7 @@ namespace Calculator
             textBox1.Focus();
             TextWasChanged = false;
         }
-        private void button16_Click(object sender, EventArgs e)
+        private void btnmul_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "")
             {
@@ -302,7 +302,7 @@ namespace Calculator
             TextWasChanged = false;
         }
     
-        private void button20_Click(object sender, EventArgs e)
+        private void btnbackspace_Click(object sender, EventArgs e)
         {
             textBox2.Clear();
             int index = textBox1.Text.Length;
@@ -313,20 +313,20 @@ namespace Calculator
                 textBox1.Text = "0";
             }
         }
-        private void button19_Click(object sender, EventArgs e)
+        private void btnclear_Click(object sender, EventArgs e)
         {
             textBox1.Text = "0";
             textBox2.Clear();
             operations = null;
         }
-        private void button18_Click(object sender, EventArgs e)
+        private void btnce_Click(object sender, EventArgs e)
         {
             textBox1.Text = "0";
             textBox2.Clear();
             operations = null;
         }
 
-        private void button17_Click(object sender, EventArgs e)
+        private void btndiv_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "")
             {
@@ -357,7 +357,7 @@ namespace Calculator
             TextWasChanged = false;
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btnequal_Click(object sender, EventArgs e)
         {
             textBox2.Text = textBox1.Text;
        
@@ -412,7 +412,7 @@ namespace Calculator
 
         }
 
-        private void button3_Click_1(object sender, EventArgs e)
+        private void btnpm_Click_1(object sender, EventArgs e)
         {
             {
                 data2 = double.Parse(textBox1.Text);
@@ -453,7 +453,7 @@ namespace Calculator
         {
           
         }
-        private void button15_Click(object sender, EventArgs e)
+        private void btn9_Click(object sender, EventArgs e)
         {
             if (textBox2.Text.ToString().Contains("="))
             {
